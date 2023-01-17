@@ -1,9 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Field : MonoBehaviour
+public class Campo : MonoBehaviour
 {
+    private bool hasBomb;
+    private int proximityCounter = 0;
+
+    TabuleiroController tabuleiro;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +20,10 @@ public class Field : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void AddToCounter()
+    {
+        proximityCounter++;
     }
 }
