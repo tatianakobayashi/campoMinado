@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TabuleiroController: MonoBehaviour
 {
+
+    public GameObject[][] campos;
     // Start is called before the first frame update
     void Start()
     {
