@@ -133,9 +133,10 @@ GameObject:
   m_Component:
   - component: {fileID: 35406014}
   - component: {fileID: 35406015}
+  - component: {fileID: 35406016}
   m_Layer: 0
   m_Name: temp_campo_fechado (60)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -207,6 +208,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &35406016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35406013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &44252788
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,9 +232,10 @@ GameObject:
   m_Component:
   - component: {fileID: 44252789}
   - component: {fileID: 44252790}
+  - component: {fileID: 44252791}
   m_Layer: 0
   m_Name: temp_campo_fechado (82)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -232,7 +248,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44252788}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.458, y: -5.6599994, z: -0.04581577}
+  m_LocalPosition: {x: -1.458, y: -5.66, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -291,6 +307,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &44252791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44252788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &90186036
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,9 +331,10 @@ GameObject:
   m_Component:
   - component: {fileID: 90186037}
   - component: {fileID: 90186038}
+  - component: {fileID: 90186039}
   m_Layer: 0
   m_Name: temp_campo_fechado (88)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -375,6 +406,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &90186039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90186036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &102505579
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,9 +430,10 @@ GameObject:
   m_Component:
   - component: {fileID: 102505580}
   - component: {fileID: 102505581}
+  - component: {fileID: 102505582}
   m_Layer: 0
   m_Name: temp_campo_fechado (49)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -459,6 +505,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &102505582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102505579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &132914898
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,9 +529,10 @@ GameObject:
   m_Component:
   - component: {fileID: 132914899}
   - component: {fileID: 132914900}
+  - component: {fileID: 132914901}
   m_Layer: 0
   m_Name: temp_campo_fechado (76)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -484,7 +545,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132914898}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.55, y: -4.6900005, z: -0.04581577}
+  m_LocalPosition: {x: 2.55, y: -4.69, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -543,6 +604,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &132914901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132914898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &155852180
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,9 +628,10 @@ GameObject:
   m_Component:
   - component: {fileID: 155852181}
   - component: {fileID: 155852182}
+  - component: {fileID: 155852183}
   m_Layer: 0
   m_Name: temp_campo_fechado (33)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -568,7 +644,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155852180}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.451, y: -0.7600001, z: -0.04581577}
+  m_LocalPosition: {x: -0.451, y: -0.76, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -627,6 +703,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &155852183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155852180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &180057799
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,9 +727,10 @@ GameObject:
   m_Component:
   - component: {fileID: 180057800}
   - component: {fileID: 180057801}
+  - component: {fileID: 180057802}
   m_Layer: 0
   m_Name: temp_campo_fechado (84)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -711,6 +802,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &180057802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180057799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &183973136
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,9 +826,10 @@ GameObject:
   m_Component:
   - component: {fileID: 183973137}
   - component: {fileID: 183973138}
+  - component: {fileID: 183973139}
   m_Layer: 0
   m_Name: temp_campo_fechado (1)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -795,6 +901,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &183973139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183973136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &217762811
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,9 +925,10 @@ GameObject:
   m_Component:
   - component: {fileID: 217762812}
   - component: {fileID: 217762813}
+  - component: {fileID: 217762814}
   m_Layer: 0
   m_Name: temp_campo_fechado (27)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -820,7 +941,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 217762811}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.547, y: 0.22900009, z: -0.04581577}
+  m_LocalPosition: {x: 3.547, y: 0.229, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -879,6 +1000,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &217762814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217762811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &234015558
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,9 +1024,10 @@ GameObject:
   m_Component:
   - component: {fileID: 234015559}
   - component: {fileID: 234015560}
+  - component: {fileID: 234015561}
   m_Layer: 0
   m_Name: temp_campo_fechado (44)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -963,6 +1099,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &234015561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234015558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &235460636
 GameObject:
   m_ObjectHideFlags: 0
@@ -973,9 +1123,10 @@ GameObject:
   m_Component:
   - component: {fileID: 235460637}
   - component: {fileID: 235460638}
+  - component: {fileID: 235460639}
   m_Layer: 0
   m_Name: temp_campo_fechado (11)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1047,6 +1198,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &235460639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235460636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &248946600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,9 +1222,10 @@ GameObject:
   m_Component:
   - component: {fileID: 248946601}
   - component: {fileID: 248946602}
+  - component: {fileID: 248946603}
   m_Layer: 0
   m_Name: temp_campo_fechado (85)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1131,6 +1297,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &248946603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248946600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &279220117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,9 +1321,10 @@ GameObject:
   m_Component:
   - component: {fileID: 279220118}
   - component: {fileID: 279220119}
+  - component: {fileID: 279220120}
   m_Layer: 0
   m_Name: temp_campo_fechado (58)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1215,6 +1396,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &279220120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279220117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &298080434
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,9 +1420,10 @@ GameObject:
   m_Component:
   - component: {fileID: 298080435}
   - component: {fileID: 298080436}
+  - component: {fileID: 298080437}
   m_Layer: 0
   m_Name: temp_campo_fechado (69)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1299,6 +1495,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &298080437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298080434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &303833847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1309,9 +1519,10 @@ GameObject:
   m_Component:
   - component: {fileID: 303833848}
   - component: {fileID: 303833849}
+  - component: {fileID: 303833850}
   m_Layer: 0
   m_Name: temp_campo_fechado (24)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1324,7 +1535,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303833847}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.556, y: 0.22900009, z: -0.04581577}
+  m_LocalPosition: {x: 0.556, y: 0.229, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1383,6 +1594,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &303833850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303833847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &316366219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,9 +1618,10 @@ GameObject:
   m_Component:
   - component: {fileID: 316366220}
   - component: {fileID: 316366221}
+  - component: {fileID: 316366222}
   m_Layer: 0
   m_Name: temp_campo_fechado (73)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1408,7 +1634,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316366219}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.451, y: -4.6900005, z: -0.04581577}
+  m_LocalPosition: {x: -0.451, y: -4.69, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1467,6 +1693,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &316366222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316366219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &324986535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1477,9 +1717,10 @@ GameObject:
   m_Component:
   - component: {fileID: 324986536}
   - component: {fileID: 324986537}
+  - component: {fileID: 324986538}
   m_Layer: 0
   m_Name: temp_campo_fechado (50)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1551,6 +1792,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &324986538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324986535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &341956959
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,9 +1816,10 @@ GameObject:
   m_Component:
   - component: {fileID: 341956960}
   - component: {fileID: 341956961}
+  - component: {fileID: 341956962}
   m_Layer: 0
   m_Name: temp_campo_fechado (42)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1635,6 +1891,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &341956962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341956959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &451500809
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,9 +1915,10 @@ GameObject:
   m_Component:
   - component: {fileID: 451500810}
   - component: {fileID: 451500811}
+  - component: {fileID: 451500812}
   m_Layer: 0
   m_Name: temp_campo_fechado (77)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1660,7 +1931,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 451500809}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.547, y: -4.6900005, z: -0.04581577}
+  m_LocalPosition: {x: 3.547, y: -4.69, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1719,6 +1990,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &451500812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451500809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &471132792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1729,9 +2014,10 @@ GameObject:
   m_Component:
   - component: {fileID: 471132793}
   - component: {fileID: 471132794}
+  - component: {fileID: 471132795}
   m_Layer: 0
   m_Name: temp_campo_fechado (94)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1803,6 +2089,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &471132795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471132792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &473796002
 GameObject:
   m_ObjectHideFlags: 0
@@ -1813,9 +2113,10 @@ GameObject:
   m_Component:
   - component: {fileID: 473796003}
   - component: {fileID: 473796004}
+  - component: {fileID: 473796005}
   m_Layer: 0
   m_Name: temp_campo_fechado (30)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1887,6 +2188,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &473796005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473796002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &536333952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1897,9 +2212,10 @@ GameObject:
   m_Component:
   - component: {fileID: 536333953}
   - component: {fileID: 536333954}
+  - component: {fileID: 536333955}
   m_Layer: 0
   m_Name: temp_campo_fechado (61)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1971,6 +2287,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &536333955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536333952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &537774043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1981,9 +2311,10 @@ GameObject:
   m_Component:
   - component: {fileID: 537774044}
   - component: {fileID: 537774045}
+  - component: {fileID: 537774046}
   m_Layer: 0
   m_Name: temp_campo_fechado (93)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2055,6 +2386,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &537774046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537774043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &558242189
 GameObject:
   m_ObjectHideFlags: 0
@@ -2149,9 +2494,10 @@ GameObject:
   m_Component:
   - component: {fileID: 580688666}
   - component: {fileID: 580688667}
+  - component: {fileID: 580688668}
   m_Layer: 0
   m_Name: temp_campo_fechado (83)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2223,6 +2569,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &580688668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580688665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &620703770
 GameObject:
   m_ObjectHideFlags: 0
@@ -2233,9 +2593,10 @@ GameObject:
   m_Component:
   - component: {fileID: 620703771}
   - component: {fileID: 620703772}
+  - component: {fileID: 620703773}
   m_Layer: 0
   m_Name: temp_campo_fechado (35)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2307,6 +2668,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &620703773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620703770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &676520464
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,9 +2692,10 @@ GameObject:
   m_Component:
   - component: {fileID: 676520465}
   - component: {fileID: 676520466}
+  - component: {fileID: 676520467}
   m_Layer: 0
   m_Name: temp_campo_fechado (28)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2332,7 +2708,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676520464}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.539, y: 0.22900009, z: -0.04581577}
+  m_LocalPosition: {x: 4.539, y: 0.229, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2391,6 +2767,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &676520467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676520464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &688927722
 GameObject:
   m_ObjectHideFlags: 0
@@ -2401,9 +2791,10 @@ GameObject:
   m_Component:
   - component: {fileID: 688927723}
   - component: {fileID: 688927724}
+  - component: {fileID: 688927725}
   m_Layer: 0
   m_Name: temp_campo_fechado (87)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2475,6 +2866,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &688927725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688927722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &710571534
 GameObject:
   m_ObjectHideFlags: 0
@@ -2485,9 +2890,10 @@ GameObject:
   m_Component:
   - component: {fileID: 710571535}
   - component: {fileID: 710571536}
+  - component: {fileID: 710571537}
   m_Layer: 0
   m_Name: temp_campo_fechado (10)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2559,6 +2965,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &710571537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710571534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &712268005
 GameObject:
   m_ObjectHideFlags: 0
@@ -2569,9 +2989,10 @@ GameObject:
   m_Component:
   - component: {fileID: 712268006}
   - component: {fileID: 712268007}
+  - component: {fileID: 712268008}
   m_Layer: 0
   m_Name: temp_campo_fechado (59)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2643,6 +3064,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &712268008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712268005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &725627225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2653,9 +3088,10 @@ GameObject:
   m_Component:
   - component: {fileID: 725627226}
   - component: {fileID: 725627227}
+  - component: {fileID: 725627228}
   m_Layer: 0
   m_Name: temp_campo_fechado (17)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2727,6 +3163,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &725627228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725627225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &745022118
 GameObject:
   m_ObjectHideFlags: 0
@@ -2737,9 +3187,10 @@ GameObject:
   m_Component:
   - component: {fileID: 745022119}
   - component: {fileID: 745022120}
+  - component: {fileID: 745022121}
   m_Layer: 0
   m_Name: temp_campo_fechado (32)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2752,7 +3203,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745022118}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.458, y: -0.75999975, z: -0.04581577}
+  m_LocalPosition: {x: -1.458, y: -0.76, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2811,6 +3262,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &745022121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745022118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &753625850
 GameObject:
   m_ObjectHideFlags: 0
@@ -2821,9 +3286,10 @@ GameObject:
   m_Component:
   - component: {fileID: 753625851}
   - component: {fileID: 753625852}
+  - component: {fileID: 753625853}
   m_Layer: 0
   m_Name: temp_campo_fechado (45)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2895,6 +3361,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &753625853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753625850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &761333545
 GameObject:
   m_ObjectHideFlags: 0
@@ -2905,9 +3385,10 @@ GameObject:
   m_Component:
   - component: {fileID: 761333546}
   - component: {fileID: 761333547}
+  - component: {fileID: 761333548}
   m_Layer: 0
   m_Name: temp_campo_fechado (25)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2920,7 +3401,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761333545}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.553, y: 0.22900009, z: -0.04581577}
+  m_LocalPosition: {x: 1.553, y: 0.229, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2979,6 +3460,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &761333548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761333545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &779974717
 GameObject:
   m_ObjectHideFlags: 0
@@ -2989,9 +3484,10 @@ GameObject:
   m_Component:
   - component: {fileID: 779974718}
   - component: {fileID: 779974719}
+  - component: {fileID: 779974720}
   m_Layer: 0
   m_Name: temp_campo_fechado (47)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3063,6 +3559,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &779974720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779974717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &796678902
 GameObject:
   m_ObjectHideFlags: 0
@@ -3073,9 +3583,10 @@ GameObject:
   m_Component:
   - component: {fileID: 796678903}
   - component: {fileID: 796678904}
+  - component: {fileID: 796678905}
   m_Layer: 0
   m_Name: temp_campo_fechado (96)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3147,6 +3658,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &796678905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796678902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &804029615
 GameObject:
   m_ObjectHideFlags: 0
@@ -3157,9 +3682,10 @@ GameObject:
   m_Component:
   - component: {fileID: 804029616}
   - component: {fileID: 804029617}
+  - component: {fileID: 804029618}
   m_Layer: 0
   m_Name: temp_campo_fechado (79)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3172,7 +3698,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804029615}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.546, y: -4.6900005, z: -0.04581577}
+  m_LocalPosition: {x: 5.546, y: -4.69, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3231,6 +3757,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &804029618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804029615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &821202539
 GameObject:
   m_ObjectHideFlags: 0
@@ -3241,9 +3781,10 @@ GameObject:
   m_Component:
   - component: {fileID: 821202540}
   - component: {fileID: 821202541}
+  - component: {fileID: 821202542}
   m_Layer: 0
   m_Name: temp_campo_fechado (2)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3315,6 +3856,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &821202542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821202539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &822526159
 GameObject:
   m_ObjectHideFlags: 0
@@ -3325,9 +3880,10 @@ GameObject:
   m_Component:
   - component: {fileID: 822526160}
   - component: {fileID: 822526161}
+  - component: {fileID: 822526162}
   m_Layer: 0
   m_Name: temp_campo_fechado (57)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3399,6 +3955,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &822526162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822526159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &850047600
 GameObject:
   m_ObjectHideFlags: 0
@@ -3409,9 +3979,10 @@ GameObject:
   m_Component:
   - component: {fileID: 850047601}
   - component: {fileID: 850047602}
+  - component: {fileID: 850047603}
   m_Layer: 0
   m_Name: temp_campo_fechado (20)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3424,7 +3995,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 850047600}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.4515, y: 0.22900009, z: -0.04581577}
+  m_LocalPosition: {x: -3.4515, y: 0.229, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3483,6 +4054,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &850047603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850047600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &883380152
 GameObject:
   m_ObjectHideFlags: 0
@@ -3493,9 +4078,10 @@ GameObject:
   m_Component:
   - component: {fileID: 883380153}
   - component: {fileID: 883380154}
+  - component: {fileID: 883380155}
   m_Layer: 0
   m_Name: temp_campo_fechado (78)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3508,7 +4094,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883380152}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.539, y: -4.6900005, z: -0.04581577}
+  m_LocalPosition: {x: 4.539, y: -4.69, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3567,6 +4153,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &883380155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883380152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &883747013
 GameObject:
   m_ObjectHideFlags: 0
@@ -3577,9 +4177,10 @@ GameObject:
   m_Component:
   - component: {fileID: 883747014}
   - component: {fileID: 883747015}
+  - component: {fileID: 883747016}
   m_Layer: 0
   m_Name: temp_campo_fechado (89)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3651,6 +4252,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &883747016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883747013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &942852695
 GameObject:
   m_ObjectHideFlags: 0
@@ -3661,9 +4276,10 @@ GameObject:
   m_Component:
   - component: {fileID: 942852696}
   - component: {fileID: 942852697}
+  - component: {fileID: 942852698}
   m_Layer: 0
   m_Name: temp_campo_fechado (81)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3735,6 +4351,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &942852698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942852695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &977420355
 GameObject:
   m_ObjectHideFlags: 0
@@ -3745,9 +4375,10 @@ GameObject:
   m_Component:
   - component: {fileID: 977420356}
   - component: {fileID: 977420357}
+  - component: {fileID: 977420358}
   m_Layer: 0
   m_Name: temp_campo_fechado (63)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3819,6 +4450,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &977420358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977420355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1016042854
 GameObject:
   m_ObjectHideFlags: 0
@@ -3829,9 +4474,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1016042855}
   - component: {fileID: 1016042856}
+  - component: {fileID: 1016042857}
   m_Layer: 0
   m_Name: temp_campo_fechado (51)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3903,6 +4549,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1016042857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016042854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1026697996
 GameObject:
   m_ObjectHideFlags: 0
@@ -3913,9 +4573,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1026697997}
   - component: {fileID: 1026697998}
+  - component: {fileID: 1026697999}
   m_Layer: 0
   m_Name: temp_campo_fechado (95)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3987,6 +4648,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1026697999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026697996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1078265104
 GameObject:
   m_ObjectHideFlags: 0
@@ -3997,9 +4672,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1078265105}
   - component: {fileID: 1078265106}
+  - component: {fileID: 1078265107}
   m_Layer: 0
   m_Name: temp_campo_fechado (52)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4071,6 +4747,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1078265107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078265104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1089822893
 GameObject:
   m_ObjectHideFlags: 0
@@ -4081,9 +4771,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1089822894}
   - component: {fileID: 1089822895}
+  - component: {fileID: 1089822896}
   m_Layer: 0
   m_Name: temp_campo_fechado (37)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4155,6 +4846,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1089822896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089822893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1093512764
 GameObject:
   m_ObjectHideFlags: 0
@@ -4165,9 +4870,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1093512765}
   - component: {fileID: 1093512766}
+  - component: {fileID: 1093512767}
   m_Layer: 0
   m_Name: temp_campo_fechado (91)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4239,6 +4945,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1093512767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093512764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1095908151
 GameObject:
   m_ObjectHideFlags: 0
@@ -4249,9 +4969,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1095908152}
   - component: {fileID: 1095908153}
+  - component: {fileID: 1095908154}
   m_Layer: 0
   m_Name: temp_campo_fechado (21)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4264,7 +4985,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095908151}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.452, y: 0.22900009, z: -0.04581577}
+  m_LocalPosition: {x: -2.452, y: 0.229, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4323,6 +5044,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1095908154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095908151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1110168168
 GameObject:
   m_ObjectHideFlags: 0
@@ -4333,9 +5068,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1110168169}
   - component: {fileID: 1110168170}
+  - component: {fileID: 1110168171}
   m_Layer: 0
   m_Name: temp_campo_fechado
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4407,6 +5143,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1110168171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110168168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1119516614
 GameObject:
   m_ObjectHideFlags: 0
@@ -4417,9 +5167,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1119516615}
   - component: {fileID: 1119516616}
+  - component: {fileID: 1119516617}
   m_Layer: 0
   m_Name: temp_campo_fechado (74)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4432,7 +5183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119516614}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.556, y: -4.6900005, z: -0.04581577}
+  m_LocalPosition: {x: 0.556, y: -4.69, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4491,6 +5242,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1119516617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119516614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1122687778
 GameObject:
   m_ObjectHideFlags: 0
@@ -4501,9 +5266,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1122687779}
   - component: {fileID: 1122687780}
+  - component: {fileID: 1122687781}
   m_Layer: 0
   m_Name: temp_campo_fechado (7)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4575,6 +5341,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1122687781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122687778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1161991436
 GameObject:
   m_ObjectHideFlags: 0
@@ -4585,9 +5365,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1161991437}
   - component: {fileID: 1161991438}
+  - component: {fileID: 1161991439}
   m_Layer: 0
   m_Name: temp_campo_fechado (29)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4600,7 +5381,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161991436}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.546, y: 0.22900009, z: -0.04581577}
+  m_LocalPosition: {x: 5.546, y: 0.229, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4659,6 +5440,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1161991439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161991436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1214486108
 GameObject:
   m_ObjectHideFlags: 0
@@ -4669,9 +5464,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1214486109}
   - component: {fileID: 1214486110}
+  - component: {fileID: 1214486111}
   m_Layer: 0
   m_Name: temp_campo_fechado (23)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4743,6 +5539,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1214486111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214486108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1217132117
 GameObject:
   m_ObjectHideFlags: 0
@@ -4753,9 +5563,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1217132118}
   - component: {fileID: 1217132119}
+  - component: {fileID: 1217132120}
   m_Layer: 0
   m_Name: temp_campo_fechado (43)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4827,6 +5638,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1217132120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217132117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1219378063
 GameObject:
   m_ObjectHideFlags: 0
@@ -4837,9 +5662,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1219378064}
   - component: {fileID: 1219378065}
+  - component: {fileID: 1219378066}
   m_Layer: 0
   m_Name: temp_campo_fechado (71)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4852,7 +5678,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219378063}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.452, y: -4.6900005, z: -0.04581577}
+  m_LocalPosition: {x: -2.452, y: -4.69, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4911,6 +5737,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1219378066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219378063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1257425035
 GameObject:
   m_ObjectHideFlags: 0
@@ -4921,9 +5761,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1257425036}
   - component: {fileID: 1257425037}
+  - component: {fileID: 1257425038}
   m_Layer: 0
   m_Name: temp_campo_fechado (46)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4995,6 +5836,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1257425038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257425035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1277050739
 GameObject:
   m_ObjectHideFlags: 0
@@ -5005,9 +5860,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1277050740}
   - component: {fileID: 1277050741}
+  - component: {fileID: 1277050742}
   m_Layer: 0
   m_Name: temp_campo_fechado (16)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5079,6 +5935,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1277050742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277050739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1282288508
 GameObject:
   m_ObjectHideFlags: 0
@@ -5089,9 +5959,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1282288509}
   - component: {fileID: 1282288510}
+  - component: {fileID: 1282288511}
   m_Layer: 0
   m_Name: temp_campo_fechado (75)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5104,7 +5975,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282288508}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.553, y: -4.6900005, z: -0.04581577}
+  m_LocalPosition: {x: 1.553, y: -4.69, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5163,6 +6034,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1282288511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282288508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1286406001
 GameObject:
   m_ObjectHideFlags: 0
@@ -5172,6 +6057,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1286406002}
+  - component: {fileID: 1286406003}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -5294,6 +6180,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1286406003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286406001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c18f805113ed9488050ca2fb632160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sizeX: 10
+  sizeY: 10
 --- !u!1 &1337708893
 GameObject:
   m_ObjectHideFlags: 0
@@ -5388,9 +6288,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1375696891}
   - component: {fileID: 1375696892}
+  - component: {fileID: 1375696893}
   m_Layer: 0
   m_Name: temp_campo_fechado (56)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5462,6 +6363,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1375696893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375696890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1383926701
 GameObject:
   m_ObjectHideFlags: 0
@@ -5472,9 +6387,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1383926702}
   - component: {fileID: 1383926703}
+  - component: {fileID: 1383926704}
   m_Layer: 0
   m_Name: temp_campo_fechado (68)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5546,6 +6462,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1383926704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383926701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1387752084
 GameObject:
   m_ObjectHideFlags: 0
@@ -5556,9 +6486,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1387752085}
   - component: {fileID: 1387752086}
+  - component: {fileID: 1387752087}
   m_Layer: 0
   m_Name: temp_campo_fechado (15)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5630,6 +6561,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1387752087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387752084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1497067803
 GameObject:
   m_ObjectHideFlags: 0
@@ -5640,9 +6585,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1497067804}
   - component: {fileID: 1497067805}
+  - component: {fileID: 1497067806}
   m_Layer: 0
   m_Name: temp_campo_fechado (70)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5655,7 +6601,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497067803}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.4515, y: -4.6900005, z: -0.04581577}
+  m_LocalPosition: {x: -3.4515, y: -4.69, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5714,6 +6660,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1497067806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497067803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1506061904
 GameObject:
   m_ObjectHideFlags: 0
@@ -5724,9 +6684,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1506061905}
   - component: {fileID: 1506061906}
+  - component: {fileID: 1506061907}
   m_Layer: 0
   m_Name: temp_campo_fechado (55)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5798,6 +6759,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1506061907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506061904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1518127930
 GameObject:
   m_ObjectHideFlags: 0
@@ -5808,9 +6783,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1518127931}
   - component: {fileID: 1518127932}
+  - component: {fileID: 1518127933}
   m_Layer: 0
   m_Name: temp_campo_fechado (97)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5882,6 +6858,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1518127933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518127930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1521013889
 GameObject:
   m_ObjectHideFlags: 0
@@ -5976,9 +6966,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1521869745}
   - component: {fileID: 1521869746}
+  - component: {fileID: 1521869747}
   m_Layer: 0
   m_Name: temp_campo_fechado (65)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6050,6 +7041,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1521869747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521869744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1524278333
 GameObject:
   m_ObjectHideFlags: 0
@@ -6060,9 +7065,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1524278334}
   - component: {fileID: 1524278335}
+  - component: {fileID: 1524278336}
   m_Layer: 0
   m_Name: temp_campo_fechado (13)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6134,6 +7140,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1524278336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524278333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1533819495
 GameObject:
   m_ObjectHideFlags: 0
@@ -6144,9 +7164,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1533819496}
   - component: {fileID: 1533819497}
+  - component: {fileID: 1533819498}
   m_Layer: 0
   m_Name: temp_campo_fechado (5)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6218,6 +7239,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1533819498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533819495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1549389997
 GameObject:
   m_ObjectHideFlags: 0
@@ -6228,9 +7263,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1549389998}
   - component: {fileID: 1549389999}
+  - component: {fileID: 1549390000}
   m_Layer: 0
   m_Name: temp_campo_fechado (99)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6302,6 +7338,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1549390000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549389997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1575988752
 GameObject:
   m_ObjectHideFlags: 0
@@ -6312,9 +7362,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1575988753}
   - component: {fileID: 1575988754}
+  - component: {fileID: 1575988755}
   m_Layer: 0
   m_Name: temp_campo_fechado (86)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6386,6 +7437,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1575988755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575988752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1613736744
 GameObject:
   m_ObjectHideFlags: 0
@@ -6396,9 +7461,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1613736745}
   - component: {fileID: 1613736746}
+  - component: {fileID: 1613736747}
   m_Layer: 0
   m_Name: temp_campo_fechado (64)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6470,6 +7536,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1613736747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613736744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1636309094
 GameObject:
   m_ObjectHideFlags: 0
@@ -6480,9 +7560,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1636309095}
   - component: {fileID: 1636309096}
+  - component: {fileID: 1636309097}
   m_Layer: 0
   m_Name: temp_campo_fechado (8)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6554,6 +7635,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1636309097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636309094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1649535355
 GameObject:
   m_ObjectHideFlags: 0
@@ -6564,9 +7659,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1649535356}
   - component: {fileID: 1649535357}
+  - component: {fileID: 1649535358}
   m_Layer: 0
   m_Name: temp_campo_fechado (34)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6638,6 +7734,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1649535358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649535355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1672142227
 GameObject:
   m_ObjectHideFlags: 0
@@ -6648,9 +7758,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1672142228}
   - component: {fileID: 1672142229}
+  - component: {fileID: 1672142230}
   m_Layer: 0
   m_Name: temp_campo_fechado (41)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6722,6 +7833,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1672142230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672142227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1680814292
 GameObject:
   m_ObjectHideFlags: 0
@@ -6732,9 +7857,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1680814293}
   - component: {fileID: 1680814294}
+  - component: {fileID: 1680814295}
   m_Layer: 0
   m_Name: temp_campo_fechado (22)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6747,7 +7873,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680814292}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.458, y: 0.22900033, z: -0.04581577}
+  m_LocalPosition: {x: -1.458, y: 0.229, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6806,6 +7932,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1680814295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680814292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1722749711
 GameObject:
   m_ObjectHideFlags: 0
@@ -6816,9 +7956,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1722749712}
   - component: {fileID: 1722749713}
+  - component: {fileID: 1722749714}
   m_Layer: 0
   m_Name: temp_campo_fechado (19)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6890,6 +8031,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1722749714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722749711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1736633778
 GameObject:
   m_ObjectHideFlags: 0
@@ -6900,9 +8055,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1736633779}
   - component: {fileID: 1736633780}
+  - component: {fileID: 1736633781}
   m_Layer: 0
   m_Name: temp_campo_fechado (12)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6974,6 +8130,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1736633781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736633778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1763107705
 GameObject:
   m_ObjectHideFlags: 0
@@ -6984,9 +8154,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1763107706}
   - component: {fileID: 1763107707}
+  - component: {fileID: 1763107708}
   m_Layer: 0
   m_Name: temp_campo_fechado (6)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7058,6 +8229,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1763107708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763107705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1770465274
 GameObject:
   m_ObjectHideFlags: 0
@@ -7068,9 +8253,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1770465275}
   - component: {fileID: 1770465276}
+  - component: {fileID: 1770465277}
   m_Layer: 0
   m_Name: temp_campo_fechado (66)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7142,6 +8328,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1770465277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770465274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1777245912
 GameObject:
   m_ObjectHideFlags: 0
@@ -7152,9 +8352,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1777245913}
   - component: {fileID: 1777245914}
+  - component: {fileID: 1777245915}
   m_Layer: 0
   m_Name: temp_campo_fechado (80)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7226,6 +8427,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1777245915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777245912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1781526280
 GameObject:
   m_ObjectHideFlags: 0
@@ -7236,9 +8451,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1781526281}
   - component: {fileID: 1781526282}
+  - component: {fileID: 1781526283}
   m_Layer: 0
   m_Name: temp_campo_fechado (53)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7310,6 +8526,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1781526283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781526280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1789528070
 GameObject:
   m_ObjectHideFlags: 0
@@ -7320,9 +8550,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1789528071}
   - component: {fileID: 1789528072}
+  - component: {fileID: 1789528073}
   m_Layer: 0
   m_Name: temp_campo_fechado (62)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7394,6 +8625,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1789528073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789528070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1798713390
 GameObject:
   m_ObjectHideFlags: 0
@@ -7404,9 +8649,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1798713391}
   - component: {fileID: 1798713392}
+  - component: {fileID: 1798713393}
   m_Layer: 0
   m_Name: temp_campo_fechado (67)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7478,6 +8724,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1798713393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798713390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1831361242
 GameObject:
   m_ObjectHideFlags: 0
@@ -7488,9 +8748,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1831361243}
   - component: {fileID: 1831361244}
+  - component: {fileID: 1831361245}
   m_Layer: 0
   m_Name: temp_campo_fechado (54)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7562,6 +8823,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1831361245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831361242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1844155078
 GameObject:
   m_ObjectHideFlags: 0
@@ -7572,9 +8847,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1844155079}
   - component: {fileID: 1844155080}
+  - component: {fileID: 1844155081}
   m_Layer: 0
   m_Name: temp_campo_fechado (92)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7587,7 +8863,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844155078}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.458, y: -6.6399994, z: -0.04581577}
+  m_LocalPosition: {x: -1.458, y: -6.64, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7646,6 +8922,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1844155081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844155078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1847194685
 GameObject:
   m_ObjectHideFlags: 0
@@ -7656,9 +8946,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1847194686}
   - component: {fileID: 1847194687}
+  - component: {fileID: 1847194688}
   m_Layer: 0
   m_Name: temp_campo_fechado (48)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7730,6 +9021,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1847194688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847194685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1847703037
 GameObject:
   m_ObjectHideFlags: 0
@@ -7740,9 +9045,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1847703038}
   - component: {fileID: 1847703039}
+  - component: {fileID: 1847703040}
   m_Layer: 0
   m_Name: temp_campo_fechado (3)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7814,6 +9120,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1847703040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847703037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1865935443
 GameObject:
   m_ObjectHideFlags: 0
@@ -7824,9 +9144,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1865935444}
   - component: {fileID: 1865935445}
+  - component: {fileID: 1865935446}
   m_Layer: 0
   m_Name: temp_campo_fechado (39)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7898,6 +9219,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1865935446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865935443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1882888602
 GameObject:
   m_ObjectHideFlags: 0
@@ -7908,9 +9243,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1882888603}
   - component: {fileID: 1882888604}
+  - component: {fileID: 1882888605}
   m_Layer: 0
   m_Name: temp_campo_fechado (14)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7982,6 +9318,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1882888605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882888602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1909110993
 GameObject:
   m_ObjectHideFlags: 0
@@ -7992,9 +9342,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1909110994}
   - component: {fileID: 1909110995}
+  - component: {fileID: 1909110996}
   m_Layer: 0
   m_Name: temp_campo_fechado (31)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8066,6 +9417,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1909110996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909110993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1951021490
 GameObject:
   m_ObjectHideFlags: 0
@@ -8076,9 +9441,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1951021491}
   - component: {fileID: 1951021492}
+  - component: {fileID: 1951021493}
   m_Layer: 0
   m_Name: temp_campo_fechado (36)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8150,6 +9516,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1951021493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951021490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1971744203
 GameObject:
   m_ObjectHideFlags: 0
@@ -8160,9 +9540,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1971744204}
   - component: {fileID: 1971744205}
+  - component: {fileID: 1971744206}
   m_Layer: 0
   m_Name: temp_campo_fechado (38)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8234,6 +9615,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1971744206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971744203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &1973865356
 GameObject:
   m_ObjectHideFlags: 0
@@ -8244,9 +9639,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1973865357}
   - component: {fileID: 1973865358}
+  - component: {fileID: 1973865359}
   m_Layer: 0
   m_Name: temp_campo_fechado (72)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8318,6 +9714,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1973865359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973865356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &2014937691
 GameObject:
   m_ObjectHideFlags: 0
@@ -8328,9 +9738,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2014937692}
   - component: {fileID: 2014937693}
+  - component: {fileID: 2014937694}
   m_Layer: 0
   m_Name: temp_campo_fechado (40)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8402,6 +9813,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2014937694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014937691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &2049514528
 GameObject:
   m_ObjectHideFlags: 0
@@ -8412,9 +9837,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2049514529}
   - component: {fileID: 2049514530}
+  - component: {fileID: 2049514531}
   m_Layer: 0
   m_Name: temp_campo_fechado (9)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8486,6 +9912,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2049514531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049514528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &2052180811
 GameObject:
   m_ObjectHideFlags: 0
@@ -8496,9 +9936,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2052180812}
   - component: {fileID: 2052180813}
+  - component: {fileID: 2052180814}
   m_Layer: 0
   m_Name: temp_campo_fechado (90)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8570,6 +10011,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2052180814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052180811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &2055619140
 GameObject:
   m_ObjectHideFlags: 0
@@ -8580,9 +10035,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2055619141}
   - component: {fileID: 2055619142}
+  - component: {fileID: 2055619143}
   m_Layer: 0
   m_Name: temp_campo_fechado (4)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8654,6 +10110,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2055619143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055619140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &2073769630
 GameObject:
   m_ObjectHideFlags: 0
@@ -8664,9 +10134,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2073769631}
   - component: {fileID: 2073769632}
+  - component: {fileID: 2073769633}
   m_Layer: 0
   m_Name: temp_campo_fechado (18)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8738,6 +10209,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2073769633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073769630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &2086274907
 GameObject:
   m_ObjectHideFlags: 0
@@ -8748,9 +10233,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2086274908}
   - component: {fileID: 2086274909}
+  - component: {fileID: 2086274910}
   m_Layer: 0
   m_Name: temp_campo_fechado (26)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8763,7 +10249,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2086274907}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.55, y: 0.22900009, z: -0.04581577}
+  m_LocalPosition: {x: 2.55, y: 0.229, z: -0.04581577}
   m_LocalScale: {x: 1.017, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8822,6 +10308,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2086274910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086274907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
 --- !u!1 &2135677331
 GameObject:
   m_ObjectHideFlags: 0
@@ -8832,9 +10332,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2135677332}
   - component: {fileID: 2135677333}
+  - component: {fileID: 2135677334}
   m_Layer: 0
   m_Name: temp_campo_fechado (98)
-  m_TagString: Untagged
+  m_TagString: Campos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8906,3 +10407,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2135677334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135677331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6907ba1384c7bc54eb95b4d18f2bf5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasBomb: 0
+  proximityCounter: 0
