@@ -8,12 +8,14 @@ public class Campo : MonoBehaviour
     public bool hasBomb;
     public int proximityCounter = 0;
 
-    TabuleiroController tabuleiro = new TabuleiroController();
+    private TabuleiroController tabuleiro;
 
     // Start is called before the first frame update
     void Start()
     {
-        tabuleiro = GameObject.FindGameObjectWithTag("Tabuleiro").GetComponent<TabuleiroController>();
+        GameObject g = GameObject.FindGameObjectWithTag("Tabuleiro");
+
+        tabuleiro = g.GetComponent<TabuleiroController>();
     }
 
     // Update is called once per frame
@@ -25,6 +27,7 @@ public class Campo : MonoBehaviour
             if(!hasBomb && proximityCounter == 0) tabuleiro.ScanAround(transform.localPosition.x, transform.localPosition.y);
             else if(proximityCounter > 0)
             {
+                Debug.Log(gameObject.name);
                 AbrirCampo();
             }
             if (hasBomb) Debug.Log("Fim de Jogo");
